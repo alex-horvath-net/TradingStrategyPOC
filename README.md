@@ -1,1 +1,41 @@
 # Trading
+
+- automated trading: execute decession
+- algoratmic trading: suggest decession
+  - eliminate emotional bias 
+  - backtest
+  - strategies
+    - Momentum: identifies trending market and predict same trend
+    - Mean reversion: identifies ranging market and predict correction of deviasions back to the mean/average 
+    - Statistical arbitrage: identifies dispariting market and predict correction of deviation to the pair asset 
+  - Trading Approaches
+    - Technical Trading: analyzing historical price patterns, trends, indicators
+    - Fudamental Trading: analyzing economic, finantial indicators
+  -  trading Spread = Bid - Ask = Suply - Demand =  max offer - min claim /  market liquidity
+    - wide
+      - at the end of the market close,
+      - because the lequidity is decraising, volatility incrasing
+    - narrow 
+      - means more people / high liquidity / low volatility
+      - same num seller/buyers 
+      - at the middle of day with popular assets 
+      - test here
+      - trade here 
+  - trading volumes: intensity of market
+      - high: more many / fluktuation
+  - Finantial Markets
+    - Equity: stoks, shares, 
+    - Forex: Currency ! 2-3 hour change
+    - Commodity: hard: gold, oil, metals / soft: wheat, coffee, cotton
+    - Derivatives: pre agreement 
+    - Bond: dept securities
+    - Real Estate: 
+    - Cryptocurrency
+  - Market Participant
+    - Retail Traders: induviduals
+    - Institutional Investors: Large investor, Penson Founds, hedge founds, asset management companies
+    - Market Makers: maintain liquidity, broker firms. 
+    - Hedge Founds: 
+    - Banks: 
+    - Central banks:  
+    - Corporation: company bying stoks
