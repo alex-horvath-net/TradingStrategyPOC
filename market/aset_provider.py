@@ -9,7 +9,11 @@ class AsetProvider:
 
     def get_historical_data(self, asset, start, end, interval): 
       
-
+#print(df)
+        #df.reset_index(inplace=True)
+        #df = df[ df["Volume"]!=0 ] # clean empty volumes
+        ##df = df[:500]
+        #df = df.copy()
         #Download historical data
         
         #tickers = yf.Ticker(tickers)
@@ -20,5 +24,4 @@ class AsetProvider:
         df = yf.download(tickers=asset, start=start, end=end, interval=interval)
         df.reset_index(inplace=True)
         df = df[ df["Volume"]!=0 ] # clean empty volumes
-        ##df = df[:500]
-        #df = df.copy()
+        return df
