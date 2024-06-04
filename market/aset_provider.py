@@ -22,6 +22,6 @@ class AsetProvider:
         #historical_data = yf.download(tickers=ticker_symbol, period=period, interval=interval )
         #historical_data = pd.read_csv(raw_data_file_path)
         df = yf.download(tickers=asset, start=start, end=end, interval=interval)
-        df.reset_index(inplace=True)
-        df = df[ df["Volume"]!=0 ] # clean empty volumes
+        #df.reset_index(inplace=True, drop=False)
+        #df = df[ df["Volume"]!=0 ] # clean empty volumes
         return df
