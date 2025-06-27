@@ -1,41 +1,21 @@
-# Trading
+﻿# 🧠 TradingStrategyPOC
 
-- automated trading: execute decession
-- algoratmic trading: suggest decession
-  - eliminate emotional bias 
-  - backtest
-  - strategies
-    - Momentum: identifies trending market and predict same trend
-    - Mean reversion: identifies ranging market and predict correction of deviasions back to the mean/average 
-    - Statistical arbitrage: identifies dispariting market and predict correction of deviation to the pair asset 
-  - Trading Approaches
-    - Technical Trading: analyzing historical price patterns, trends, indicators
-    - Fudamental Trading: analyzing economic, finantial indicators
-  -  trading Spread = Bid - Ask = Suply - Demand =  max offer - min claim /  market liquidity
-    - wide
-      - at the end of the market close,
-      - because the lequidity is decraising, volatility incrasing
-    - narrow 
-      - means more people / high liquidity / low volatility
-      - same num seller/buyers 
-      - at the middle of day with popular assets 
-      - test here
-      - trade here 
-  - trading volumes: intensity of market
-      - high: more many / fluktuation
-  - Finantial Markets
-    - Equity: stoks, shares, 
-    - Forex: Currency ! 2-3 hour change
-    - Commodity: hard: gold, oil, metals / soft: wheat, coffee, cotton
-    - Derivatives: pre agreement 
-    - Bond: dept securities
-    - Real Estate: 
-    - Cryptocurrency
-  - Market Participant
-    - Retail Traders: induviduals
-    - Institutional Investors: Large investor, Penson Founds, hedge founds, asset management companies
-    - Market Makers: maintain liquidity, broker firms. 
-    - Hedge Founds: 
-    - Banks: 
-    - Central banks:  
-    - Corporation: company bying stoks
+Welcome to **TradingStrategyPOC** – a playground of algorithmic trading strategies across multiple platforms, languages, and markets. This repository demonstrates Proof of Concepts (PoC) for designing, testing, and evolving trading logic used in real-world applications.
+
+## 📌 Purpose
+
+To explore, compare, and refine diverse trading strategies using Python, MetaTrader5 (MQL5), and other tools. This repo is ideal for:
+- Backtesting concepts before production
+- Learning how trading models behave under different conditions
+- Experimenting with portfolio-level trade orchestration
+
+## 🧩 What's Inside?
+
+| Strategy Type        | Language / Platform     | Description                            |
+|----------------------|--------------------------|----------------------------------------|
+| Moving Average Cross | Python (Pandas, TA-Lib)  | Simple MA/EMA crossover strategy       |
+| RSI Filtered MA      | Python                   | MA cross filtered by RSI               |
+| Volatility Breakout  | Python                   | ATR-based dynamic breakout logic       |
+| FX Scalper           | MetaTrader5 (MQL5)       | Rapid FX strategy for EUR/USD          |
+| Portfolio Simulator  | Python                   | Multi-asset portfolio strategy PoC     |
+
